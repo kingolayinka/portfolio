@@ -33,7 +33,7 @@
     --smaller-font-size: .75rem;
     --tiny-font-size: .625rem;
 
-    /*   font weight */
+    /*=======font weight===*/
     --font-medium: 500;
     --font-semi-bold: 600;
 
@@ -630,7 +630,15 @@ img{
 .testimonial__subtitle{
     font-size: var(--smaller-font-size);
     color: var(--text-color-light);
+}
 
+.testimonial__img{
+    width: 70px;
+    transform: rotate(30deg);
+    position: absolute;
+    top: 5rem;
+    right: -1.5rem;
+    opacity: .1;
 }
 
 
